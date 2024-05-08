@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage | ChemData</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script src="/JS/initialization.js" defer></script>
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <!-- Top navigation -->
+        <div class="topnav">
+            <div class="sidebar-toggle" onclick="toggleSidebar()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <!-- Title in the center -->
+            <a href="home.html" class="topnav-title">ChemData</a>
+        </div>
+
+        <!-- Side navigation -->
+        <div class="sidebar">
+            <!-- Category 1 -->
+            <div class="sidebar-section">
+                <h4 class="sidebar-header">Data Analysis</h4>
+                <a href="contents/1data_analysis/introduction.html"><i class="fas fa-check-circle" id="icon-introduction"></i>Introduction</a>
+                <a href="contents/1data_analysis/asking_the_right_questions.html"><i class="fas fa-check-circle" id="icon-asking_the_right_questions"></i>Asking The Right Questions</a>
+                <!--Refer any relevant activity pages-->
+            </div>
+
+            <!-- Category 2 -->
+            <div class="sidebar-section">
+                <h4 class="sidebar-header">Data Collection</h4>
+                <a href="contents/2data_collection/data_sources.html"><i class="fas fa-check-circle" id="icon-data_sources"></i> Data Sources</a>
+                <a href="contents/2data_collection/data_organization.html"><i class="fas fa-check-circle" id="icon-data_organization"></i> Data Organization</a>
+                <!--Refer any relevant activity pages-->
+            </div>
+
+            <!-- Category 3 -->
+            <div class="sidebar-section">
+                <h4 class="sidebar-header">Data Cleaning</h4>
+                <a href="contents/3data_cleaning/bad_data.html"><i class="fas fa-check-circle"  id="icon-bad_data"></i> Bad Data</a>
+                <a href="contents/3data_cleaning/cleaning_activity.html"><i class="fas fa-check-circle" id="icon-cleaning_activity"></i>Finding Bad Data</a>
+                <a href="contents/3data_cleaning/cleaning_the_data_house.html"><i class="fas fa-check-circle"  id="icon-cleaning_the_data_house"></i> Cleaning the Data House</a>
+                <a href="contents/3data_cleaning/cleaning_activity_2.html"><i class="fas fa-check-circle" id="icon-cleaning_activity_2"></i>Removing Bad Data</a>
+                <!--Refer any relevant activity pages-->
+            </div>
+
+            <!-- Category 4 -->
+            <div class="sidebar-section">
+                <h4 class="sidebar-header">Data Analysis and Interpretation</h4>
+                <a href="contents/4data_analysis_and_interpretation/summary_statistics.html"><i class="fas fa-check-circle"  id="icon-summary_statistics"></i>Summary Statistics</a>
+                <a href="contents/4data_analysis_and_interpretation/math_activity_1.html"><i class="fas fa-check-circle" id="icon-math_activity_1"></i>Cell Referencing</a>
+                <a href="contents/4data_analysis_and_interpretation/visualizing_data_already.html"><i class="fas fa-check-circle"  id="icon-visualizing_data_already"></i>Visualizing Data Already?</a>
+                <a href="contents/4data_analysis_and_interpretation/analytical_techniques.html"><i class="fas fa-check-circle"  id="icon-analytical_techniques"></i>Analytical Techniques</a>
+                <a href="contents/4data_analysis_and_interpretation/math_activity_2.html"><i class="fas fa-check-circle" id="icon-math_activity_2"></i>Simple Functions</a>
+                <!--Refer any relevant activity pages-->
+            </div>
+
+            <!-- Category 5 -->
+            <div class="sidebar-section">
+                <h4 class="sidebar-header">Data Visualization</h4>
+                <a href="contents/5data_visualization/show_and_tell.html"><i class="fas fa-check-circle"  id="icon-show_and_tell"></i>Show and Tell</a>
+                <!--Refer any relevant activity pages-->
+            </div>
+
+            <!-- Category 6 -->
+            <div class="sidebar-section">
+                <h4 class="sidebar-header">Experimenting</h4>
+                <a href="contents/6experimenting/index.html"></i>Sandbox</a>
+                <!--Refer any relevant activity pages -->
+            </div>
+        </div>
+
+
+        <div class="content-wrapper">
+            <!-- All content except navbar goes here -->
+            <h1>ChemData</h1>
+            <p class="project-members">
+                <em>Adonis Paulino, Kylie Etwaroo, Matthew Peters, and David Romine</em>
+            </p>
+            <p class="site-version">
+                <em>Lab Activity's lastest update: 2024-04-29</em>
+            </p>
+            <hr>
+            <h1>Welcome!</h1>
+            <p><b>Hello and welcome to the first-year Chemistry Online Data Science Learning Lab Activity at Iona University for first-year students!!</b></p>
+            <p>This learning lab activity was created to provide an opportunity to upcoming first-year chemistry students with basic data analysis skills that can prove useful beyond their first-year classes. This lab activity is broken up into the following sections:</p>
+            <p><a href="contents/1data_analysis/introduction.html">Introduction to Data Analysis</a> explores the essentials of data analysis, a process that involves inspecting, cleaning, transforming, and modeling data to discover useful information, identify patterns, and make decisions. This section delves into various techniques such as statistical analysis and data visualization, crucial for fields ranging from business to healthcare and beyond.</p>
+            <p><a href="contents/1data_analysis/asking_the_right_questions.html">Asking the Right Questions</a> guides you through the initial steps of data analysis, where clear problem definition and understanding the business context are crucial. This section emphasizes how setting specific, measurable, and actionable objectives can drive effective data analysis, tailored to the unique challenges of various industries like retail, healthcare, and finance.</p>
+            <p><a href="contents/2data_collection/data_sources.html">Data Sources</a> explores the foundational step of identifying and sourcing the data needed for effective data analysis. This section delves into how to find and evaluate data from various sources—be it internal databases, public datasets, or real-time streams—ensuring they meet the quality standards necessary for insightful analytics. It highlights how tailored data sourcing strategies are essential across different industries such as retail, healthcare, and finance to achieve project success and drive strategic decisions.</p>
+            <p><a href="contents/2data_collection/data_organization.html">Data Organization</a> delves into the critical steps of structuring and preparing data for analysis, ensuring that large volumes of data are manageable and primed for complex analyses. This section outlines key strategies for data indexing and cataloging, enhancing accessibility and efficiency in data handling across various sectors. It highlights how essential organized data is for enabling swift and accurate data analysis, pivotal for data professionals facing diverse analytical challenges.</p>
+            <p><a href="contents/3data_cleaning/bad_data.html">Bad Data</a> emphasizes the critical role of data cleaning in data preparation, ensuring accuracy, consistency, and usability of datasets for analysis. The section identifies common data issues such as missing values, duplicate records, inconsistent formats, and outliers, providing suggested solutions to address each issue effectively. Mastering data cleaning techniques is essential for students and future data professionals to prepare reliable datasets that lead to valid insights and decisions in real-world scenarios.</p>
+            <p><a href="contents/3data_cleaning/cleaning_the_data_house.html">Cleaning the Data House</a>, the importance of data cleaning for accurate analysis is highlighted. The section discusses fundamental techniques tailored to enhance data integrity and usefulness, addressing various aspects of data cleaning. Removing duplicates and handling missing values are essential tasks covered in this section, as they contribute to improving the reliability of data analysis by ensuring the dataset reflects true and unique entries.</p>
+            <p><a href="contents/4data_analysis_and_interpretation/summary_statistics.html">Summary Statistics</a> delves into the crucial aspect of interpreting data using mathematical functions to uncover patterns, trends, and relationships. This section highlights how functions like summation, averages, and standard deviation transform complex datasets into understandable and actionable insights. Students learn to apply these functions to enhance decision-making processes, essential for predictive analytics in various fields like finance, healthcare, and more.</p>
+            <p><a href="contents/4data_analysis_and_interpretation/visualizing_data_already.html">Visualizing Data Already?</a> emphasizes the critical role of data visualization in data science. This section explores how transforming data into visual formats like bar charts, line graphs, scatter plots, and heat maps can significantly enhance the clarity and impact of data analysis. By illustrating data visually, analysts and stakeholders can more easily detect trends, relationships, and anomalies that might be obscured in raw datasets, fostering better decision-making and insights.</p>
+            <p><a href="contents/4data_analysis_and_interpretation/analytical_techniques.html">Analytical Techniques</a> explores a variety of methods essential for interpreting complex datasets and extracting actionable insights in data science. This section introduces and explains key techniques such as regression analysis, classification, and clustering, each vital for pattern recognition, prediction, and decision-making. By applying these analytical techniques, data scientists can uncover significant patterns, predict trends, and categorize data efficiently, making this knowledge fundamental for effective data analysis across multiple domains.</p>
+            <p><a href="contents/5data_visualization/show_and_tell.html">Finalizing Visualizations</a> covers the crucial steps involved in perfecting visual presentations of data for professional reports. Beyond selecting appropriate charts and metrics, this section emphasizes the significance of design and layout to ensure clarity and impact. Key aspects discussed include consistency in color schemes and fonts, simplicity in avoiding clutter, clear labeling of axes and data points, and highlighting essential information to guide audience attention. By mastering these finishing touches, professionals can create visually appealing and easily understandable visualizations for effective communication of data insights.</p>
+        
+            <hr>
+            <h1>Have Feedback?</h1>
+            <p>If you notice any issues within any sections and would like to report or provide us any information/feedback, feel free to visit <a href="https://forms.office.com/r/nA8NpMMKZP">our MS form</a> to let us know!</p>
+        </div>  
+        <script>
+            function toggleSidebar() {
+              var sidebar = document.querySelector('.sidebar');
+              sidebar.classList.toggle('active');
+            }
+            function toggleProgressBar() {
+                var container = document.querySelector('.progress-bar-container');
+                container.classList.toggle('expanded'); // Toggle the 'expanded' class on click
+            }
+        </script>
+        <!-- Link to the JS file that handles updating sidebar icons -->
+        <script src="../../JS/icons.js"></script>
+    </body>
+</html>
